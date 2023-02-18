@@ -29,7 +29,7 @@ class PointsCounter extends StatelessWidget
               Text(
                 '${CounterCubit.get(context).teamLeftPoint}',
                 style: const TextStyle(
-                  fontSize: 250.0,
+                  fontSize: 150.0,
                 ),
               ),
               ElevatedButton(
@@ -110,7 +110,7 @@ class PointsCounter extends StatelessWidget
               Text(
                 '${CounterCubit.get(context).teamRightPoint}',
                 style: const TextStyle(
-                  fontSize: 250.0,
+                  fontSize: 150.0,
                 ),
               ),
               ElevatedButton(
